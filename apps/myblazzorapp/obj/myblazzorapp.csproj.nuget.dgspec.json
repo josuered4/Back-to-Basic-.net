@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/josuered4/Escritorio/Back To Basic/apps/myblazzorapp/myblazzorapp.csproj": {}
+  },
+  "projects": {
+    "/home/josuered4/Escritorio/Back To Basic/apps/myblazzorapp/myblazzorapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/josuered4/Escritorio/Back To Basic/apps/myblazzorapp/myblazzorapp.csproj",
+        "projectName": "myblazzorapp",
+        "projectPath": "/home/josuered4/Escritorio/Back To Basic/apps/myblazzorapp/myblazzorapp.csproj",
+        "packagesPath": "/home/josuered4/.nuget/packages/",
+        "outputPath": "/home/josuered4/Escritorio/Back To Basic/apps/myblazzorapp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/josuered4/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
