@@ -1,0 +1,30 @@
+-------------------------------------
+Programación Orientada a Objetos POO
+
+Paradigma cuyo elemento principal es 
+las "clase" y objetivo es reutilizar 
+codigo 
+
+- ¿Que es una Clase?
+    -Plantilla para creacion de Obj
+    -Definicion de un objeto 
+    
+Personal:
+"la representacion abstracta de un 
+    objeto, para la obtención de 
+    atributos y comportamientos"
+
+"La clase es una Plantilla que 
+define las caracteristicas y 
+comportamientos de un objeto"
+
+- ¿Que es un objetivo?
+    - Una instancia de la clase 
+ "instancia" -> existencia de algo
+
+-------------------------------------
+
+ sintaxis:
+ class NombreClase{}
+    -por defecto vienen internal
+    -toda clase hereda de "object"

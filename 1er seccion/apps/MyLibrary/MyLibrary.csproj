@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk"> <!--Especificamos el sdk-->
+
+  <PropertyGroup>
+    <OutputType>library</OutputType> <!--Especificamos el tipo de salida-->
+    <TargetFramework>net6.0</TargetFramework><!--Especificamos version sdk-->
+    <!--<ImplicitUsings>enable</ImplicitUsings>Especificamos el sdk-->
+    <!--<Nullable>enable</Nullable>El validador de null-->
+  </PropertyGroup>
+
+</Project>
