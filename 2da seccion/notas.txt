@@ -1,0 +1,88 @@
+-------------------------------------
+Las Clases tiene Campos, Métodos, 
+Propiedades y Eventos.
+
+Los campos o atributos definen el 
+estado del objeto y son las que deben
+ser encapsuladas y solo accedidas 
+desde sus propiedades.
+
+-------------------------------------
+Propiedades.
+
+Metodos especiales que nos ayudan a 
+encapsuladar nuestras propiedades de 
+clases que consumen de esta.
+
+Las propiedades en C# tienen una def
+similar a la creacion de los campos 
+ejemplo:
+
+private int Edad_BackingField;
+
+public int Edad
+{
+    set{ Edad_BackingField = value; }
+    get{ return Edad_BackingField; }
+}
+se pueden poner validadores en set y 
+get;
+
+**LLAMADA:**
+Exm example = new();
+example.Edad = 4;
+console.write(example.Edad);
+
+-------------------------------------
+
+Otras formas de propiedades.
+
+
+"Propiedades gericos"
+- Es es mas utilizado cuando no se 
+valida nada, generalmente los 
+encontramos en "Modelos".
+
+" public string Name{ get; set; } "
+
+- Aunque no aparezca un campo 
+BackingField relacionamdo a esta 
+propiedad, no signfica que no lo use
+el compilador crea uno y los 
+relaciona a esta propiedad.
+
+
+"Propiedades de solo Lectura"
+
+propiedades que solo cuentan con el 
+get, y solo puede asigarse el valor 
+desde el constructor o en su defini.
+
+" public string Name{ get; } "
+            o
+public string Name{get; set;}="josue"
+
+NO SE RECOMIENDA UNA PROPIEDAD SOLO 
+CON SET, NO TIENE SENTIDO.
+
+
+"Propiedades de lectura public y
+ configuración private"
+Se puede cambiar el metodo de acceso
+de los getter y setter, en este caso 
+de puso en private el set y solo
+podra cambiarse el valor dentro de 
+la clase, con metodos o constructor.
+
+public string Name{get; private set;}
+public void SetName(string name)
+{
+    Name = name;    
+}
+//Se usa el nombre de la propiedad
+//como si de un campo se tratase
+//incluso dentro de la clase.
+-------------------------------------
+*************************************
+
+
