@@ -1,0 +1,61 @@
+-------------------------------------
+*************************************
+Constructores.
+
+Metodo especial de las clases que 
+tienen el mismo nombre de la clase, 
+cuya funcion principal es inicializar
+las propiedades de su clase y las 
+propiedades de las clases de las que 
+hereda.
+
+- Los Constores son metodos que 
+    NO SE HEREDAN, NI RETORNAN UN 
+    TIPO DE DATOS.
+
+- CUANDO UNA CLASE HEREDA DE OTRA
+PRIMERO EJECUTA EL CONSTRUCTOR DE LA 
+CLASE PADRE Y DESPUES DE LA CLASE HIJA 
+SI PADRE PUDE DATOS EL CONSTRUCTOR HIJO
+SE LO DEBE DE PASAR AL PADRE.
+
+- Existen Constructores por defecto 
+mismo que podemos crear u omitir, 
+por que el compilador crea uno, 
+este Constructor no tiene param ni 
+cuerpo, pero su funcion principal 
+es inicializar object, ya que todo 
+hereda de el.
+
+LOS CONSTRUCTORES SIN CUERPO Y SIN 
+PARAMETROS INICIALIZAN LOS CAMPOS DE 
+OBJECT.
+
+EXAMPLE
+class car 
+{
+    public Car(){}
+}
+
+o
+
+class car {}
+
+Estos Constructores no inicializan 
+nada de su clase principal, pero si 
+se su clase object "system.object".
+
+CUANDO CREAMOS UN CONSTRUCTOR ESTE ES
+UNA SOBRE CARGA DEL CONSTRUCTOR POR 
+DEFAULT.
+EN C# PODEMOS TENER MAS DE UN 
+CONSTRUCTOR.
+
+-------------------------------------
+
+Toda las clases herendan se system 
+object, esta clase tiene funciones 
+importantes como el toString.
+
+-------------------------------------
+*************************************
