@@ -1,0 +1,21 @@
+-------------------------------------
+*************************************
+
+Para los nombres de los metodos y 
+funciones se recomienda poner una 
+frace o un verbo que denoten la 
+accion que haga.
+
+Se recomienda PascalCase para method
+
+PrintMessage()
+ThisIsAMethod()
+
+Se recomienda poner propuedades en 
+camel 
+
+string name
+string lastName
+
+Las clases deben ser un sustantico y 
+no plurar 

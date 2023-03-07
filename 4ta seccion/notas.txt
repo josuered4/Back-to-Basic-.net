@@ -1,0 +1,23 @@
+-------------------------------------
+*************************************
+Metodo.
+
+Es una unidad de codigo que realiza 
+una pieza discreta de trabajo.
+
+Deben ser creados para un solo 
+propisito, si tienes que hacer varias 
+cosas, es preferible crear varios 
+metodos.
+
+Permiten encapsular los capos de una 
+clase 
+
+Un metodo esta compuesto por la
+especificación y el cuerpo del metod
+
+la firma del metodo esta compuesto 
+del nombre y sus parametros.
+
+al igual que los campos los methods 
+son privados por default.

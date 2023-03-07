@@ -1,0 +1,26 @@
+-------------------------------------
+*************************************
+DELEGADOS:
+Es un tipo de datos que nos permite 
+almacenar direcciones de memoria de 
+metodos, es como un apuntador en C  
+
+Un tipo delegate nos permite declarar 
+variables que pueden alamcenar una o 
+mas direcciones de metodos, y puede 
+conciderarse como un apuntador de 
+direcciones de metodos en memoria.
+
+Tambien debemos definir el tipos de 
+delegado y solo podra alamcenar 
+metodos que cumple con la 
+especificacion declarada del tipo 
+delegado
+
+La clase publicador debe conocer la 
+direccion de memoria del metodo a 
+ejecutar, hay que pasarle esta funcion 
+a la funcion.
+
+"Los delegados almacenan funciones 
+en pocas palabras"

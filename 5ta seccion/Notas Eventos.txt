@@ -1,0 +1,31 @@
+-------------------------------------
+*************************************
+Eventos:
+Son mecanismos que permite a los 
+objetos notificar a otros objetos, o
+clases a clases cuando algo ocurre, 
+son como los eventos de js.
+
+El objeto que envia ("genera") el 
+evento se llama: Editor o Publicador
+El objeto que revice (o "maneja") el 
+evento se llama: Suscriptor
+
+En este ejemplo implementaremos un 
+evento que sera llamado cuando una 
+propieda cambia, pero antes debemos 
+conocer a los delegados:
+
+NOTAS:
+Cuando se quieran usar eventos se 
+debe conciderar delegados. Los datos 
+de tipo referencia, aceptan datos 
+nulos, tener en cuenta poner el 
+"!= null "
+
+Notas  2
+CUando creamos una evento necesitamos 
+una manera para permitir que otro 
+codigo se suscriba a ese evento, en 
+C# se crea con un delegado, Un evento 
+de debe enlazar a un delega
