@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/josuered4/Escritorio/Back To Basic/6ta seccion/apps/Cats/Cats.Repository/Cats.Repository.csproj": {}
+    "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.Repository\\Cats.Repository.csproj": {}
   },
   "projects": {
-    "/home/josuered4/Escritorio/Back To Basic/6ta seccion/apps/Cats/Cats.Repository/Cats.Repository.csproj": {
+    "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.BusinessObjects\\Cats.BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/josuered4/Escritorio/Back To Basic/6ta seccion/apps/Cats/Cats.Repository/Cats.Repository.csproj",
-        "projectName": "Cats.Repository",
-        "projectPath": "/home/josuered4/Escritorio/Back To Basic/6ta seccion/apps/Cats/Cats.Repository/Cats.Repository.csproj",
-        "packagesPath": "/home/josuered4/.nuget/packages/",
-        "outputPath": "/home/josuered4/Escritorio/Back To Basic/6ta seccion/apps/Cats/Cats.Repository/obj/",
+        "projectUniqueName": "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.BusinessObjects\\Cats.BusinessObjects.csproj",
+        "projectName": "Cats.BusinessObjects",
+        "projectPath": "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.BusinessObjects\\Cats.BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/josuered4/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -52,7 +55,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.Repository\\Cats.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.Repository\\Cats.Repository.csproj",
+        "projectName": "Cats.Repository",
+        "projectPath": "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.Repository\\Cats.Repository.csproj",
+        "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.BusinessObjects\\Cats.BusinessObjects.csproj": {
+                "projectPath": "C:\\Users\\josue\\Desktop\\Proyectos\\C# and .Net\\Back-to-Basic-.net\\6ta seccion\\apps\\Nueva carpeta\\Cats\\Cats.BusinessObjects\\Cats.BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
