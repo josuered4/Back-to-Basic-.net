@@ -1,0 +1,9 @@
+En esta biblioteca de clases se 
+hace la implementacion del como 
+de los objetos de negocios, ya 
+nosotros lo podemos implementar 
+el Repository con un entityframe
+o ADO
+
+Osea la implementacion de la
+interfaz Repository de BusinessObject

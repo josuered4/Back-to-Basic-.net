@@ -1,0 +1,37 @@
+-------------------------------------
+*************************************
+
+Cuando creas proyectos en .net se 
+recomienda tener mas de dos proyectos
+.net 
+    - Uno para interfaz de usuario
+    - Para backend, este con class
+        library 
+
+Aunque rompa paradigmas.
+"NO SE DEBE PENSAR EN LA BASE DE DATS 
+CUANDO SE COMIENZE UN PROYECTO, 
+PRIMERO EN EL CODIGO 'LO QUE VA A 
+SOLUCIONAR EL PROBLEMA'"
+
+'DEJA LA BBDD AL FINAL'
+-------------------------------------
+*************************************
+
+Creacion de un proyecto
+1- Definicion del nombre y carpeta 
+2- Trabajar en directorios cerca de /
+3- Crear el proyecto libraryClass
+
+Codigo:
+    Entidades: Clases que representan
+        la estructura de datos con la
+        que trabajamos y se diferenci
+        entre si.
+        
+    REpresentar valores
+    Logica de Negocio 
+
+Cada proyecto se recomienda el name
+    proyecName.funtion
+    Cats.NAme

@@ -3,6 +3,6 @@
 //ya solo es de poner lo que necesitamos
 public class ErrorEventArgs : EventArgs
 {
-    public string Message { get; set;}
+    public string? Message { get; set;}
     public byte Severity {get; set;}
 }

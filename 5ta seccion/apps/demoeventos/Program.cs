@@ -30,7 +30,7 @@ class Program
         BankAccountDelegateEvent Account = new  BankAccountDelegateEvent(); //creo una variable BankAccount y guardo la direccion
         
         //Implementacion de Delegate para el evento, "FOmra de suscripcion"
-        Account.OnError += new BankAccount_OnEror;
+        //Account.OnError += new BankAccount_OnEror;
 
         decimal CurrentBalance = Account.Deposit(1000);
         CurrentBalance = Account.Withdraw(1000);

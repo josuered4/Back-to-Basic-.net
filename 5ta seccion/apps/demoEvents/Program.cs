@@ -7,6 +7,7 @@
         account.OnError += BankAccount_OnError;
         // += NameManejador //esa es la sintaxis para pasar el manejador
 
+        account.ThereEvent();
         account.Withdraw(4);
         
     }
@@ -20,4 +21,6 @@
     }
      // debe tener el mismo retorno y los mismo argumentos, por que es un delegado 
     //se recomienda poner ese formato en el nombre 
+
+    //Los uno se desuscripsibes despues de que muera el objeto 
 }

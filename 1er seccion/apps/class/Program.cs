@@ -3,7 +3,7 @@
 class Clases
 {
     static void Main(string[] args){
-        Hello Hello = new();
+        Hello? Hello = new();
         Hello.ExampleMethod();
 
         Hello = null; //matamos la instancia y le quitamos la meria o con el metodo "dispose";

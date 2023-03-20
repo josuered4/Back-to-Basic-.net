@@ -1,0 +1,25 @@
+-------------------------------------
+*************************************
+Caso de uso, get cats:
+    Obtener listado de datos de gatos
+    
+Historia de usuario:
+
+    US deseo ver el catalogo de gatos
+    para seleccionar uno y compralo 
+    posteriormente.
+
+Datos de entrada:
+    * Ninguno 
+Datos de Salida:
+    * Listado de datos 
+        -Id
+        -Nombre
+        -Precio
+        -Descripxion
+        -Img
+  1.El Usuario solicita el catalogo 
+    de gatos.
+  2.El sistema recive la peticion
+  3.El sistema retorna la lista con 
+    los datos de gatos.

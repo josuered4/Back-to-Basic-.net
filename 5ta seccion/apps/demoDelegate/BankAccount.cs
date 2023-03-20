@@ -4,7 +4,7 @@ class BankAccount
 
     //Declaramaos una propiedad de tipo ErrorHandler 
     //La accesibilidad dependeran del programador 
-    public ErrorHandler ErrorEventHandlerDelegate{get; set;}
+    public ErrorHandler? ErrorEventHandlerDelegate{get; set;}
     //Podemos invicar las dirrecciones de memoria por medio de esta propiedad
 
     public decimal Withdraw(decimal amount)

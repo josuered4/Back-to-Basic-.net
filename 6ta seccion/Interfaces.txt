@@ -1,0 +1,26 @@
+-------------------------------------
+*************************************
+Interfaz
+Cuando tu necesitas definir que es lo 
+que se necesitas pero no sabes el 
+como se debe hacer, es donde entran 
+las interfaces.
+
+Clases
+Nos ayudan tambien a implementar 
+estructuras, estas clases son 
+llamadas clases POCO, solo 
+tinen propiedades, y no funcciones
+ni decoradores "[Key, Required]".
+
+Clases Abstracta
+Podemos definir el que se requiere
+y el como se implementara 
+
+TIP entre Interfaz y clases Abstra
+"Si quieres definir el que Interfaz
+Si quieres el definir lo que quiere
+y el como se quiere definir usa 
+clase Abstracta"
+Si quieres definir solo el como usa 
+solo una clase 

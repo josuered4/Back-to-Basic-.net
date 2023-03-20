@@ -10,7 +10,7 @@ class BankAccountDelegateEvent
 {
     decimal CurrentBalance;
 
-    public event ErrorEventHandler OnError; //Creamos un evento de tipo ErrorEventHandler de nomber
+    public event ErrorEventHandler? OnError; //Creamos un evento de tipo ErrorEventHandler de nomber
                                             // OnError
 
     public decimal Withdraw(decimal amount)

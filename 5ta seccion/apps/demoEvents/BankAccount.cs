@@ -9,7 +9,7 @@ class BankAccount
 {
     decimal CurrentBalance;
 
-    public event ErrorEventHandler OnError;
+    public event ErrorEventHandler? OnError;
     //ya no se requier de una propiedad de tipo delegate 
     // ahora usaremos eventos con la sig sintaxis.
     // event + tipeEvent + NameEvent
@@ -53,5 +53,13 @@ class BankAccount
     {
         CurrentBalance += amount;
         return CurrentBalance;
+    }
+
+    public void ThereEvent()
+    {
+        if(OnError != null)
+            Console.WriteLine("Existe un evento...");
+        else
+            Console.WriteLine("No Existe un evento...");
     }
 }
